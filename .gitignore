@@ -1,0 +1,60 @@
+# Arquivos e pastas do sistema
+*.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# Arquivos compilados Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos e pastas de ambiente virtual
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+
+# Arquivos de configuração e logs
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.db
+
+# Configurações locais do Django
+local_settings.py
+.env
+
+# Cache do Django
+django/__pycache__/
+
+# Arquivos gerados por IDEs e editores
+.vscode/
+.idea/
+*.iml
+
+# Arquivos gerados por testes
+coverage/
+*.cover
+*.py,cover
+.hypothesis/
+
+# Arquivos estáticos gerados
+staticfiles/
+media/
+
+# Arquivos temporários e backups
+*.bak
+*.tmp
+*.old
+*.orig
+*.~*
+
+# Node.js (caso use npm/yarn para front-end)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
